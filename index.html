@@ -18,7 +18,20 @@
             <div class="form-body">
             <h1 class="form-titulo">Venda fácil seu carro</h1>
             <p>Descreva as características do seu carro e marque os opcionais que ele possui</p>
-            </div>
+            <form>
+                <div class="caixaInputs">
+                    <label for="title">Título do anúncio <span class="campo-obrigatorio">*</span></label>
+                    <input type="text" name="title" class="block" placeholder="Digite um título"minlength="1" maxlength="30 required">
+            
+        
+                        <div class="caixaInputs">
+                        <label for="preco">preço <span class="campo-obrigatorio"></span></label>
+                        <input type="number" name="preco" id="preco" class="block" placeholder="O preço" required>
+                    </div>
+                    <div class="caixaInputs">
+                        <label for="descrição">Descrição</label>
+                        <textarea name="descricao" id="descricao"
+                        class="block" placeholder="Faça a descrição do seu veiculo aqui"></textarea>
         </div>
     </div>
 </body>
