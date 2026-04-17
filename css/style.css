@@ -82,3 +82,30 @@ form-header {
 .block {
     display: block;
 }
+
+.caixaOpcional {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.listaOpcionais li {
+    lista-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursos: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: #673ab7;
+    border-color: #673ab7
+}
