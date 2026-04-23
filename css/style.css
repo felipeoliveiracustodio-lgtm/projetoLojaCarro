@@ -1,15 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #f0ebf8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: black;
+    color: #333;
+}
+
+p, label {
+   color: #444;
 }
 
 input {
@@ -18,7 +22,7 @@ input {
     padding: 10px 0;
 }
 
-input[type="text"], input[type="number"], input[type="date"], input [type="file"], textarea {
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
 }
 
@@ -33,7 +37,7 @@ textarea {
 }
 
 .cabecalho h3 {
-    color: #000000;
+    color: #fff;
     margin-top: 0;
 }
 
@@ -44,31 +48,33 @@ textarea {
     position: relative;
     top: -46px;
 }
-form-header {
+
+.form-header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
-.form-header p {
+
+.form-header p{
     color: #673ab7;
     border-bottom: 2px solid #673ab7;
-    width: 100px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
     height: 45px;
-    line-height: 45px;
+    list-style: 45px;
 }
 
 .form-body {
     padding: 30px;
 }
 
-.form-titulo {
+.titulo-form {
     margin-bottom: 15px;
 }
 
 .form-body p {
-    margin-bottom: 15px
+    margin-bottom: 20px;
 }
 
 .campo-obrigatorio {
@@ -88,8 +94,8 @@ form-header {
     margin: 0 30px 0 30px;
 }
 
-.listaOpcionais li {
-    lista-style: none;
+.caixaOpcional li {
+    list-style: none;
     margin-bottom: 5px;
 }
 
@@ -99,7 +105,7 @@ form-header {
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
-    cursos: pointer;
+    cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
 }
@@ -107,5 +113,5 @@ form-header {
 .btn-submit:hover {
     background-color: #fff;
     color: #673ab7;
-    border-color: #673ab7
+    border-color: #673ab7;
 }
