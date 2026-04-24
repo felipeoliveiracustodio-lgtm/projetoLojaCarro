@@ -33,11 +33,11 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: #673ab7;
+    background-color: #000000;
 }
 
 .cabecalho h3 {
-    color: #fff;
+    color: #000000;
     margin-top: 0;
 }
 
@@ -112,6 +112,6 @@ textarea {
 
 .btn-submit:hover {
     background-color: #fff;
-    color: #673ab7;
+    color: #000000;
     border-color: #673ab7;
 }
