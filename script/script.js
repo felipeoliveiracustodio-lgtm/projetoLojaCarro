@@ -36,9 +36,9 @@ function adicionarNatela(carro) {
     card.innerHTML = `
     <h3>${carro.titulo}</h3>
     <p><strong>Preço:</strong> R$ ${carro.preco}</p>
-    <p><strong>Preço:</strong> R$ ${carro.marca}</p>
-    <p><strong>Preço:</strong> R$ ${carro.modelio}</p>
-    <p><strong>Preço:</strong> R$ ${carro.cambio}</p>
+    <p><strong>Marca:</strong> R$ ${carro.marca}</p>
+    <p><strong>Modelo:</strong> R$ ${carro.modelo}</p>
+    <p><strong>Câmbio:</strong> R$ ${carro.cambio}</p>
     `;
 
     lista.append(card)
