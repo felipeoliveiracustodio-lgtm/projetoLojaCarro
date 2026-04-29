@@ -43,3 +43,11 @@ function adicionarNatela(carro) {
 
     lista.append(card)
 }
+
+window.onload = function () {
+    let carrios = JSON.parse(localStorage.getItem("carros")) || [];
+
+    carros.forEach(carro => {
+        adicionarNaTela(carro);
+    });
+}
