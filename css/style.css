@@ -119,5 +119,21 @@ textarea {
 hr {
     margin-top: 20px;
     height: 3px;
-    background: to right, transparent;
+    background: linear-gradient(to right, transparent, #673ab7, transparent);
+    margin: 20px 0;
+    border: none;
 }
+.card {
+    width: 250px;
+    background: rgb(215, 250, 190);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(207, 6, 6, 0.5);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+

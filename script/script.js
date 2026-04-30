@@ -34,6 +34,7 @@ function adicionarNatela(carro) {
     card.classList.add('card');
 
     card.innerHTML = `
+    <img src= 'https://picsum.photos/250/150?random = ${Math.random()}'>
     <h3>${carro.titulo}</h3>
     <p><strong>Preço:</strong> R$ ${carro.preco}</p>
     <p><strong>Marca:</strong> R$ ${carro.marca}</p>
@@ -41,7 +42,7 @@ function adicionarNatela(carro) {
     <p><strong>Câmbio:</strong> R$ ${carro.cambio}</p>
     `;
 
-    lista.append(card)
+    lista.appendChild(card)
 }
 
 window.onload = function () {
