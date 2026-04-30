@@ -115,3 +115,9 @@ textarea {
     color: #000000;
     border-color: #673ab7;
 }
+
+hr {
+    margin-top: 20px;
+    height: 3px;
+    background: to right, transparent;
+}
